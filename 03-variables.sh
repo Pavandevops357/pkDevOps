@@ -21,7 +21,7 @@ b="pavan A"
  echo B = $b 
 
  ##
- DATE = 2019-11-22
+ DATE=2019-11-22
  echo hello world good morning. today date is $DATE
 
  ## above statement is true for only one day.... so date is the only value making that statement as wrong.
