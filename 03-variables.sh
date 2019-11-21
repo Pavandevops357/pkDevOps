@@ -27,7 +27,7 @@ b="pavan A"
  ## above statement is true for only one day.... so date is the only value making that statement as wrong.
  ## to get the date dynamically  when the script is excuted then we need to do command substitution.
   
-DATE=$(date+%F)
+DATE=$(date +%F)
 echo hello world good morning. today date is $DATE
 
 
