@@ -23,4 +23,9 @@ echo -e Hello\nBye
 
 echo -e "hello\nBye"
 
+## when you want space between two wordsis \t
+
+echo -e "Hello\t\t\tBye"
+
+
 
