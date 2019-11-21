@@ -30,6 +30,11 @@ b="pavan A"
 DATE=$(date +%F)
 echo hello world good morning. today date is $DATE
 
+## acces avariable from cli
+echo COURSE_NAME=$COURSE_NAME
+ 
+## EXPORT COMMAND TO GIVE THE NAME  COURSE_NAME ====> export name
+
 
 
 
