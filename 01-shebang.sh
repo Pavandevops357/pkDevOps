@@ -1,5 +1,4 @@
-#!/bin/bash
-
 Print("hello")
 
 
+hi
