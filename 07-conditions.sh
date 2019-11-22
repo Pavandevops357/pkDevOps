@@ -41,3 +41,51 @@ case $ACTION in
     ;;
 esac 
 
+
+## IF Statement has three forms 
+# 1. Simple IF 
+
+# if [ expression ]; then 
+#   commands
+# fi 
+
+# 2. If-Else 
+
+# if [ expression ]; then 
+#     commands 
+# else 
+#     commands
+# fi 
+
+## 3. Else-If 
+
+# if [ expr1 ]; then 
+#     commands 
+# elif [ expr2 ]; then 
+#     commands 
+# fi 
+
+## Expressions are categorized into three 
+# 1. String Expressions . OP : = , != , -z 
+# 2. Numerical Expressions  - OP : -eq, -ne, -gt, -ge, -lt, -le
+# 3. File expressions -OP : <Refer Internet>
+## https://www.gnu.org/software/bash/manual/html_node/Bash-Conditional-Expressions.html
+
+if [ "$ACTION" = "start" ]; then 
+  START_FUNC
+elif [ "$ACTION" = "stop" ]; then 
+  STOP_FUNC
+elif [ "$ACTION" = "restart" ]; then 
+  STOP_FUNC
+  START_FUNC 
+else 
+  echo -e "\e[31m Invalid Input!!"
+  USAGE 
+fi 
+
+
+
+
+
+
+
